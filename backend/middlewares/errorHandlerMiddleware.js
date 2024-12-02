@@ -10,7 +10,7 @@ const errorHandler = (err, req, res, next) => {
     })
   } else {
     res.json({
-      message: err.message
+      message: err.message,
     })
   }
 }

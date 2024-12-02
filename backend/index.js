@@ -25,7 +25,9 @@ app.use(
 app.use(express.urlencoded({ extended: false }))
 
 // DataBase Connection
-const dbURL = `mongodb+srv://amartripathi:${DATABASE_PASS}@cluster0.2kwytrq.mongodb.net/database`
+const dbURL = `mongodb+srv://nawabsheikh7105:${DATABASE_PASS}@courses.ov45pqo.mongodb.net/?retryWrites=true&w=majority&appName=Courses
+
+`
 connectToMongoDB(dbURL)
   .then(() => {
     console.log('DB Connected')
