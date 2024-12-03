@@ -5,7 +5,7 @@ const PurpleBackground = ({ isLoading, additionalStyles, children }) => {
   return (
     <div
       className={cn(
-        `min-h-screen w-full bg-purple-100 flex-center`,
+        `min-h-screen w-full bg-black flex-center`,
         additionalStyles
       )}
     >

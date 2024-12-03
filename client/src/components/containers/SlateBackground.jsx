@@ -5,7 +5,7 @@ const SlateBackground = ({ children, additionalStyles }) => {
   return (
     <div
       className={cn(
-        `bg-slate-100 shadow-slate-300 shadow-md`,
+        `bg-black shadow-slate-300 shadow-md`,
         additionalStyles
       )}
     >
