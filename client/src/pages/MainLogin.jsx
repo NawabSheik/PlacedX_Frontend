@@ -5,10 +5,10 @@ import { authCardDetails } from "../constants";
 
 const MainLogin = () => {
   return (
-    <section className="flex flex-col min-h-screen py-16 justify-center w-screen bg-gradient-to-r from-red-200 to-stone-400">
+    <section className="flex flex-col min-h-screen py-16 justify-center w-screen  bg-black">
       <Navbar />
-      <h3 className="text-2xl sm:text-4xl max-sm:mt-10 text-center font-bold">
-        LOGIN 📝
+      <h3 className="text-2xl text-white sm:text-4xl max-sm:mt-10 text-center font-bold">
+        LOGIN
       </h3>
 
       <div className="flex justify-evenly items-center max-sm:flex-col gap-4 px-4 mt-8 sm:mt-12">
@@ -24,6 +24,7 @@ const MainLogin = () => {
         ))}
       </div>
     </section>
+
   );
 };
 

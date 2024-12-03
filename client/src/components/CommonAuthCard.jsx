@@ -7,7 +7,7 @@ function CommonAuthCard({ imgSrc, btnLabel, btnColour, redirectRoute }) {
   return (
     <div
       className={cn(
-        "h-full max-w-60 w-60 p-4 py-6 sm:p-6 sm:py-8 border bg-slate-300 border-slate-200 hover:shadow-lg shadow-purple-200 flex-center flex-col rounded gap-4 sm:gap-8 hover:bg-slate-300 duration-200 transition-colors"
+        "h-full max-w-60 w-60 p-4 py-6 sm:p-6 sm:py-8 border bg-black border-slate-200 hover:shadow-lg shadow-grey-200 flex-center flex-col rounded gap-4 sm:gap-8 hover:bg-white-300 duration-200 transition-colors"
       )}
     >
       <img src={imgSrc} alt="" className="w-3/4 rounded-lg" />

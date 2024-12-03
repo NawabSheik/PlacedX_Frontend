@@ -16,9 +16,9 @@ const Button = ({
       type={type}
       className={cn(
         "text-sm text-white py-2.5 px-3 rounded flex-center gap-2 transition-colors duration-200 font-medium",
-        color === "pink"
-          ? "bg-pink-500 hover:bg-pink-600"
-          : "bg-cyan-500 hover:bg-cyan-600",
+        color === "black"
+          ? "bg-black hover:bg-gray-600"
+          : "bg-black hover:bg-gray-600",
         additionalStyles
       )}
       disabled={isLoading}

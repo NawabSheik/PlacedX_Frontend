@@ -13,7 +13,7 @@ function Navbar() {
     <>
       <nav
         className="flex-btwn-center h-20 w-screen px-24 backdrop-blur-sm backdrop-filter
-            max-sm:px-5 fixed top-0 left-0 max-sm:h-16   z-40   border-b-1 border-black bg-gray-900 
+            max-sm:px-5 fixed top-0 left-0 max-sm:h-16   z-40   border-b-1 border-black bg-black
             "
       >
         <Link to="/" className="h-1/2 border-none">
@@ -34,11 +34,11 @@ function Navbar() {
                 to={navLink.link}
                 className={({ isActive }) =>
                   isActive
-                    ? "text-decoration-line: underline text-pink-500"
+                    ? "text-decoration-line: underline text-white-500"
                     : ""
                 }
               >
-                <div className="px-3 hover:text-cyan-500 transition-color duration-300">
+                <div className="px-3 hover:text-gray-500 transition-color duration-300">
                   {navLink.label}
                 </div>
               </NavLink>
@@ -54,7 +54,7 @@ function Navbar() {
                 <NavLink to="/signup">
                   <Button
                     label={"Signup"}
-                    color={"pink"}
+                    color={"black"}
                     additionalStyles={"max-sm:text-sm max-sm:py-2"}
                   />
                 </NavLink>
@@ -62,7 +62,7 @@ function Navbar() {
                 <NavLink to="/signin">
                   <Button
                     label="Login"
-                    color={"blue"}
+                    color={"black"}
                     additionalStyles={"px-4 max-sm:text-sm max-sm:px-2 "}
                   />
                 </NavLink>
@@ -74,7 +74,7 @@ function Navbar() {
                     <NavLink to="/signin">
                       <Button
                         label="Login"
-                        color={"blue"}
+                        color={"black"}
                         additionalStyles={"px-4 max-sm:text-sm max-sm:px-2 "}
                       />
                     </NavLink>
@@ -82,7 +82,7 @@ function Navbar() {
                     <NavLink to="/signup">
                       <Button
                         label={"Signup"}
-                        color={"pink"}
+                        color={"black"}
                         additionalStyles={"max-sm:text-sm max-sm:py-2"}
                       />
                     </NavLink>
@@ -109,11 +109,11 @@ function Navbar() {
                       to={navLink.link}
                       className={({ isActive }) =>
                         isActive
-                          ? " text-decoration-line: underline text-pink-500"
+                          ? " text-decoration-line: underline text-white-500"
                           : ""
                       }
                     >
-                      <div className=" px-3 text-xl hover:text-cyan-500 w-full ">
+                      <div className=" px-3 text-xl hover:text-white-500 w-full ">
                         {navLink.label}
                       </div>
                     </NavLink>

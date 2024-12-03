@@ -21,7 +21,7 @@ function SocialHandle({ link, icon: Icon, name, nameDisable = false }) {
   return (
     <Link
       to={link}
-      className="flex items-center text-neutral-800 hover:text-black hover:scale-105 duration-150 transition-colors"
+      className="flex items-center text-white hover:text-gray-500 hover:scale-105 duration-150 transition-colors"
     >
       <Icon className="h-5 w-5 mr-2" />
       {!nameDisable && <span>{name}</span>}
